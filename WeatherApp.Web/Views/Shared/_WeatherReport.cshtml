@@ -1,0 +1,55 @@
+﻿
+@model  WeatherApp.ModelLayer.WeatherDataViewModel
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h3>
+            Weather Report for @Model.Location
+        </h3>
+    </div>
+</div>
+<div class="row container">
+    <div class="col-lg-12">
+        <table class="table table-bordered table-responsive">
+            <tr>
+                <th>Location Name</th>
+                <th>Temperature</th>
+                <th>Max Temperature</th>
+                <th>Min Temperature</th>
+                <th>Pressure</th>
+                <th>Humidity</th>
+                <th>Sunrise</th>
+                <th>Sunset</th>
+            </tr>
+
+            <tr class="success">
+                <td>
+                    @Model.Location
+                </td>
+                <td>
+                    @Model.CurrentTemperature
+                </td>
+                <td>
+                    @Model.MaximumTemperature
+                </td>
+                <td>
+                    @Model.MinimumTemperature
+                </td>
+                <td>
+                    @Model.Pressure
+                </td>
+                <td>
+                    @Model.Humidity
+                </td>
+                <td>
+                    @Model.Sunrise
+                </td>
+                <td>
+                    @Model.Sunset
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
