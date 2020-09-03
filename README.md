@@ -1,6 +1,24 @@
 # Weather Application
 Live weather information from weather API app created in MVC 5.2.4. WeatherApp.Web is the start-up project. App is architecture in separate layers so models, services and web are structured in separate C# library projects. There is separate unit test project covering the testing.
 
+# Technology
+<ul> 
+  <li> .NET Framework 4.6 </li>
+  <li> C# </li>
+  <li> MVC V5.2 </li>
+   <li> Bootstrap 3.3 </li>
+  <li> HTML </li>
+  <li> CSS </li>
+  <li> Calling API using http client </li>
+</ul> 
+
+# Methodology  
+
+<ul> 
+  <li> Constructor dependency injection</li>
+   <li> Abstract class </li>
+</ul>
+  
 # Key Notes
 Using the home controller and displaying the user interface screen on View.
 User enters the valid location in search box and click on search. 
